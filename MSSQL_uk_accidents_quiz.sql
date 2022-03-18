@@ -1,5 +1,6 @@
 -- SQL SERVER EXERCISES
 -- Data source: https://www.kaggle.com/silicon99/dft-accident-data
+-- Data in Database format: https://drive.google.com/file/d/1nYlkx9oWqn35Q1ctqrPyzrpvWD0FhOGo/view?usp=sharing
 
 -- QUESTIONS
 
