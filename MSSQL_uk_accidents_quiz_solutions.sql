@@ -102,7 +102,7 @@ SELECT * FROM tb1 WHERE rk < 6
 ORDER BY Age_Band_of_Driver, Engine_Capacity_CC DESC;
 
 
---10) Which accidents involved different vehicle types including type n� 23?
+--10) Which accidents involved different vehicle types including type n. 23?
 
 SELECT DISTINCT A.Accident_Index, A.Vehicle_Type AS first_vehicle, B.Vehicle_Type AS second_vehicle FROM Vehicles AS A, Vehicles AS B
 WHERE A.Accident_Index = B.Accident_Index AND A.Vehicle_Type <> B.Vehicle_Type AND A.Vehicle_Type = 23;
